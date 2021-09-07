@@ -2,8 +2,12 @@ console.clear();
 let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
-  console.log(element);
+  console.log(thisIsAfunction(element));
 }
-function thisIsAfunction() {
-  return false;
+function thisIsAfunction(value) {
+  if (value % 2 == 0) {
+    return `Number is even`;
+  } else {
+    return `Number is Odd`;
+  }
 }
