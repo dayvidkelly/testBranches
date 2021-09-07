@@ -4,7 +4,6 @@ for (let index = 0; index < array.length; index++) {
   const element = array[index];
   console.log(element);
 }
-// console.log("Hello Dev Branch");
 function thisIsAfunction() {
   return false;
 }
