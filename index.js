@@ -6,8 +6,8 @@ for (let index = 0; index < array.length; index++) {
 }
 function thisIsAfunction(value) {
   if (value % 2 == 0) {
-    return `Number is even`;
+    return `Number: ${value} is even`;
   } else {
-    return `Number is Odd`;
+    return `Number: ${value} is Odd`;
   }
 }
